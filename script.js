@@ -51,13 +51,14 @@ function _load() {
 
 	}
 	//  for ciklussal menjünk végig a html tömbön, a tömb hosszúságát vesszük alapul és mindegyikre rakjunk egy clikk eseményfigyelőt, amihez készítünk egy függvényt;
+	
+	// az elkészített függvényben a törlés befoglaló sorát kitöröljük;
 
 	for (let index = 0; index < deleteButtons.length; index++) {
 		deleteButtons[index].addEventListener("click", deleteItem);
 		
 	}
 
-	// az elkészített függvényben a törlés befoglaló sorát kitöröljük;
 
 
 
